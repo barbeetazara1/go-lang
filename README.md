@@ -1,1 +1,1 @@
-# connect-db-sql-golang
+# Golang Documentation Training
