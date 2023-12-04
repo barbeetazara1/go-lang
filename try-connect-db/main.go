@@ -21,10 +21,10 @@ type Album struct {
 func main() {
     // Capture connection properties.
     cfg := mysql.Config{
-        User:   "baron",
-        Passwd: "passpass",
+        User:   "('your_user')",
+        Passwd: "('your_user_password')",
         Net:    "tcp",
-        DBName: "recordings",
+        DBName: "('your_user_db_name')",
     }
     // Get a database handle.
     var err error
